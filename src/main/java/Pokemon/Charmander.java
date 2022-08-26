@@ -3,8 +3,8 @@ package Pokemon;
 /**
  * @author emanuel.lopezh
  */
-public class Charmander extends Pokemon{
-    
+public class Charmander extends Pokemon {
+
     private String nombre;
     private Byte nivel;
     private int salud;
@@ -14,7 +14,6 @@ public class Charmander extends Pokemon{
         this.nivel = nivel;
         this.salud = salud;
     }
-
 
     public String getNombre() {
         return nombre;
@@ -27,7 +26,6 @@ public class Charmander extends Pokemon{
     public int getSalud() {
         return salud;
     }
-    
 
     @Override
     public Pokemon evolucionar() {
@@ -37,8 +35,7 @@ public class Charmander extends Pokemon{
 
     @Override
     public String gritar() {
-         return "Charmander!";
+        return "Charmander!";
     }
 
-    
 }

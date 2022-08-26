@@ -3,8 +3,8 @@ package Pokemon;
 /**
  * @author emanuel.lopezh
  */
-public class Charizard extends Pokemon{
-    
+public class Charizard extends Pokemon {
+
     private String nombre;
     private Byte nivel;
     private int salud;
@@ -20,20 +20,20 @@ public class Charizard extends Pokemon{
     }
 
     public Byte getNivel() {
-        return this.nivel; 
+        return this.nivel;
     }
 
     public String getNombre() {
         return this.nombre;
     }
-    
+
     @Override
     public String gritar() {
         return "Charizard!";
     }
 
     @Override
-    public Pokemon evolucionar() throws NoEvolutionException{
+    public Pokemon evolucionar() throws NoEvolutionException {
         throw new NoEvolutionException();
     }
 }

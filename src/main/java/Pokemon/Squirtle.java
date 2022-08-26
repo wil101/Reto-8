@@ -5,8 +5,8 @@ package Pokemon;
  *
  * @author WilmarOS
  */
-public class Squirtle extends Pokemon{
-    
+public class Squirtle extends Pokemon {
+
     private String nombre;
     private Byte nivel;
     private int salud;
@@ -16,8 +16,8 @@ public class Squirtle extends Pokemon{
         this.nivel = nivel;
         this.salud = salud;
     }
-    
-   public String getNombre() {
+
+    public String getNombre() {
         return nombre;
     }
 
@@ -28,10 +28,8 @@ public class Squirtle extends Pokemon{
     public int getSalud() {
         return salud;
     }
-    
-    
 
-     @Override
+    @Override
     public Pokemon evolucionar() {
         Wartortle bolaAzul = new Wartortle(this.nombre, this.nivel, this.salud);
         return bolaAzul;
@@ -39,8 +37,7 @@ public class Squirtle extends Pokemon{
 
     @Override
     public String gritar() {
-         return "Squirtle!";
+        return "Squirtle!";
     }
-    
-    
+
 }

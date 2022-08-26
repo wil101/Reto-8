@@ -2,11 +2,10 @@ package Pokemon;
 
 /* 
 * @author emanuel.lopezh
-*/
-
+ */
 public class BaseDatos {
-    
-    public String getOrigen(String pokemon){     
+
+    public String getOrigen(String pokemon) {
         String origen = "";
         switch (pokemon) {
             case "charmander":
@@ -30,10 +29,10 @@ public class BaseDatos {
         }
         return origen;
     }
-    
-    public String getColor(String pokemon){
+
+    public String getColor(String pokemon) {
         String color = "";
-        switch (pokemon){
+        switch (pokemon) {
             case "charmander":
                 color = "Naranjado";
                 break;
@@ -61,10 +60,10 @@ public class BaseDatos {
         }
         return color;
     }
-    
-    public String getTipo(String pokemon){
+
+    public String getTipo(String pokemon) {
         String tipo = "";
-        switch (pokemon){
+        switch (pokemon) {
             case "charmander":
                 tipo = "fuego";
                 break;
@@ -92,10 +91,10 @@ public class BaseDatos {
         }
         return tipo;
     }
-    
-    public String getDescripcion(String pokemon){
+
+    public String getDescripcion(String pokemon) {
         String descripcion = "";
-        switch (pokemon){
+        switch (pokemon) {
             case "charmander":
                 descripcion = "Le gusta comer mango";
                 break;
@@ -123,9 +122,9 @@ public class BaseDatos {
         }
         return descripcion;
     }
-    
-    public int getAnios(String pokemon){
+
+    public int getAnios(String pokemon) {
         return 2000;
     }
-    
+
 }

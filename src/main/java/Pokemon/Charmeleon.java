@@ -3,7 +3,7 @@ package Pokemon;
 /**
  * @author emanuel.lopezh
  */
-public class Charmeleon extends Pokemon{
+public class Charmeleon extends Pokemon {
 
     private String nombre;
     private Byte nivel;
@@ -14,20 +14,19 @@ public class Charmeleon extends Pokemon{
         this.nivel = nivel;
         this.salud = salud;
     }
-     
 
     public int getSalud() {
         return this.salud;
     }
 
     public Byte getNivel() {
-        return this.nivel; 
+        return this.nivel;
     }
 
     public String getNombre() {
         return this.nombre;
     }
-    
+
     @Override
     public String gritar() {
         return "Charmeleon!";
@@ -38,5 +37,5 @@ public class Charmeleon extends Pokemon{
         Charizard chariz = new Charizard(this.nombre, this.nivel, this.salud);
         return chariz;
     }
-    
+
 }

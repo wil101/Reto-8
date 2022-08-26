@@ -1,7 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package Pokemon;
 
 /**
@@ -13,13 +10,13 @@ public class Wartortle extends Pokemon {
     private String nombre;
     private Byte nivel;
     private int salud;
-   
+
     public Wartortle(String nombre, Byte nivel, int salud) {
         this.nombre = nombre;
         this.nivel = nivel;
         this.salud = salud;
     }
-    
+
     public String getNombre() {
         return this.nombre;
     }
@@ -31,10 +28,8 @@ public class Wartortle extends Pokemon {
     public int getSalud() {
         return this.salud;
     }
-    
-    
 
-     @Override
+    @Override
     public Pokemon evolucionar() {
         Blastoise blas = new Blastoise(this.nombre, this.nivel, this.salud);
         return blas;
@@ -42,6 +37,6 @@ public class Wartortle extends Pokemon {
 
     @Override
     public String gritar() {
-         return "Wartortle!";
+        return "Wartortle!";
     }
 }

@@ -3,12 +3,11 @@ package Pokemon;
 /**
  * @author emanuel.lopezh
  */
-public class PokemDex implements PokeDex{
-
+public class PokemDex implements PokeDex {
 
     @Override
     public String consultar(Pokemon pokemon) {
-        
+
         return null;
     }
 
@@ -46,5 +45,5 @@ public class PokemDex implements PokeDex{
     public int getSalud(Pokemon pokemon) {
         return 0;
     }
-    
+
 }

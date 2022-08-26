@@ -3,7 +3,8 @@ package Pokemon;
 /**
  * @author emanuel.lopezh
  */
-public class Pikachu extends Pokemon{
+public class Pikachu extends Pokemon {
+
     private String nombre;
     private Byte nivel;
     private int salud;
@@ -12,14 +13,14 @@ public class Pikachu extends Pokemon{
         this.nombre = nombre;
         this.nivel = nivel;
         this.salud = salud;
-    }   
+    }
 
     public int getSalud() {
         return this.salud;
     }
 
     public Byte getNivel() {
-        return this.nivel; 
+        return this.nivel;
     }
 
     public String getNombre() {
@@ -36,5 +37,5 @@ public class Pikachu extends Pokemon{
     public String gritar() {
         return "Pikachu!";
     }
-    
+
 }
